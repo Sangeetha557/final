@@ -1,0 +1,98 @@
+
+.container {
+  @include mediaMd{
+    align-items: center;
+    }
+         
+  
+    left: 0%;
+    top: 0%;
+    position: relative;
+    margin: 0%;
+   
+    
+  
+  .text-block {
+    @include mediaMd{
+      align-items: center;
+      }
+
+      position: $scrnpos;
+      background-color: #00a1e0;
+      color:$fcolor ;
+      font-size: 2rem;
+      display: inline-block;
+      padding: 0.125rem 0.75rem 0.3125rem 11.875rem;
+      top: 10.625rem;
+      left: 0%;
+	  color:$fcolor;
+  }
+}
+
+.container2 {
+  @include mediaMd{
+    align-items: center;
+    }
+
+    left: 2.5rem;
+    top: 31.875rem;
+    border: 0.0625rem solid #fff;
+    position: $scrnpos;
+    box-sizing: border-box;
+    float: left;
+.bottom-left {
+  @include mediaMd{
+    align-items: center;
+    }
+
+    color:$fcolor;
+    position: $scrnpos;
+    bottom: 28.125rem;
+    left: 1rem;
+    font-size: $fsize;
+  }
+.central {
+  @include mediaMd{
+    align-items: center;
+   }
+
+    color:$fcolor;
+    position: $scrnpos;
+    bottom: 27.5rem;
+    left: 28.75rem;
+    font-size: $fsize;
+  }
+.right-corner {
+  @include mediaMd{
+    align-items: center;
+    }
+
+    position: $scrnpos;
+    right: 0;
+    top: 0.125rem;
+  .right {
+    @include mediaMd{
+      align-items: center;
+      }
+
+    color:$fcolor;
+    position: $scrnpos;
+    bottom: 2.5rem;
+    left: 1.25rem;
+    font-size: $fsize;
+}}
+} 
+
+.down {
+  @include mediaMd{
+    align-items: center;
+    }
+
+    color:$fcolor;
+    position:$scrnpos;
+    bottom: 3.75rem;
+    left: 2.875rem;
+    font-size: $fsize;
+  }
+  
+ 

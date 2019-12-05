@@ -1,0 +1,76 @@
+.container {
+  left: 0%;
+  top: 0%;
+  position: relative;
+  margin: 0%; }
+  @media screen and (max-width: 768px) {
+    .container {
+      align-items: center; } }
+  .container .text-block {
+    position: absolute;
+    background-color: #00a1e0;
+    color: red;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0.125rem 0.75rem 0.3125rem 11.875rem;
+    top: 10.625rem;
+    left: 0%;
+    color: red; }
+    @media screen and (max-width: 768px) {
+      .container .text-block {
+        align-items: center; } }
+
+.container2 {
+  left: 2.5rem;
+  top: 31.875rem;
+  border: 0.0625rem solid #fff;
+  position: absolute;
+  box-sizing: border-box;
+  float: left; }
+  @media screen and (max-width: 768px) {
+    .container2 {
+      align-items: center; } }
+  .container2 .bottom-left {
+    color: red;
+    position: absolute;
+    bottom: 28.125rem;
+    left: 1rem;
+    font-size: 1.875rem; }
+    @media screen and (max-width: 768px) {
+      .container2 .bottom-left {
+        align-items: center; } }
+  .container2 .central {
+    color: red;
+    position: absolute;
+    bottom: 27.5rem;
+    left: 28.75rem;
+    font-size: 1.875rem; }
+    @media screen and (max-width: 768px) {
+      .container2 .central {
+        align-items: center; } }
+  .container2 .right-corner {
+    position: absolute;
+    right: 0;
+    top: 0.125rem; }
+    @media screen and (max-width: 768px) {
+      .container2 .right-corner {
+        align-items: center; } }
+    .container2 .right-corner .right {
+      color: red;
+      position: absolute;
+      bottom: 2.5rem;
+      left: 1.25rem;
+      font-size: 1.875rem; }
+      @media screen and (max-width: 768px) {
+        .container2 .right-corner .right {
+          align-items: center; } }
+
+.down {
+  color: red;
+  position: absolute;
+  bottom: 3.75rem;
+  left: 2.875rem;
+  font-size: 1.875rem; }
+  @media screen and (max-width: 768px) {
+    .down {
+      align-items: center; } }
