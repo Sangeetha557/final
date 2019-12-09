@@ -1,65 +1,148 @@
-.column ul li {
+$color:white;
+
+
+  body{
+    @include mediaMd{
+    color:blue;
+    
+    
+  
+  }
+}
+ 
+ 
+
+  .container0 {
+    @include mediaMd{
+    flex-direction:column;
+    // padding:9rem;
+  
+  }
+
+}
+
+.tile ul li {
+
     overflow: hidden;
-    display: block;
-  }
+    display: inline;
+ 
+}
+
+.container0 >div{
+  @include mediaMd{
+  margin: auto;
+  text-align: center;
   
-  .row {
-    display: flex;
-    font-size: 20px;
+}
+}
+
+footer {
+  @include mediaMd{
+    // position:relative;
   }
-  
-  footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: orange;
+    background-color:$color;
+    padding:0.625rem;
+    position:fixed;
+
+    
+
+}
+
+
+.container0 {
+
+        display: flex;
+        font-size: 0.9375rem;
+        padding:1.875rem;
+}
+
+ul li {
+  @include mediaMd{
+    font-size:2rem;
   }
-  
-  .container {
-    height: 30%;
-    width: 50%;
-  }
-  
-  ul {
-    padding: 80px;
-  }
-  
-  .tile {
+        overflow: hidden;
+        display:block;
+}
+
+
+.tile {
+ 
     text-align: center;
-    background-color: grey;
-    border-radius: 10px;
-    border: 1px solid black;
-  }
-  
-  .vl {
-    border-left: 2px solid black;
-    height: 33px;
-    padding: 5px;
-  }
-  
-  h3 {
-    padding: 5px;
-    font-size: 15px;
-  }
-  
-  .row1 {
-    display: flex;
-    padding-left: 180px;
-    padding-top: 10px;
-  }
-  
-  .row2 {
-    display: flex;
-    padding-left: 400px;
-    padding-top: 10px;
-    text-align: center;
-  }
-  
+    padding-right:0.125rem;
+    display :flex;
+    display:block;
+    
+}
+
   hr {
-    margin: 20px;
-    border: 1px solid black;
+    @include mediaMd{
+      border: 0.0625rem solid green;
+    }
+      border: 0.0625rem solid grey;
+      width:85%;
   }
+
   
-  h3:hover {
-    color: pink;
+
+.fa {
+  @include mediaMd{
+    float:none;
+
   }
+    float:left ;
+    padding: 0.3125rem;
+    font-size: 1.875rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3125rem 0.125rem;
+  }
+  .fa-facebook {
+    background-color:grey;
+    color: $color;
+  }
+  .fa-twitter {
+    background-color:grey;
+    color: $color;
+  }
+  .fa-google {
+    background-color:grey;
+    color: $color;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+form {
+  @include mediaMd{
+    flex-direction:column;
+
+     }
+
+    
+  display:flex;
+  flex-direction:row;
+   border:0.0625rem solid grey;
+   padding:0.9375rem 0.625rem;
+   background-color: grey;
+  
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border:0.125rem solid blue;
+  background:blue;
+  color:white;
+  padding:0.625rem 0.9375rem;
+ 
+}
+p{
+  text-decoration-color: brown;
+  margin-left:0.625rem;
+}
+
